@@ -1,0 +1,119 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:10:22-76
+application
+ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:12:5-40:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.3.4] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.3.4\AndroidManifest.xml:7:5-20
+	android:label
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:16:9-35
+	android:allowBackup
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:14:9-43
+	android:theme
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:17:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:27:9-29:55
+	android:value
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:29:13-52
+	android:name
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:28:13-58
+activity#com.example.linux.polygonmaps.MapsActivity
+ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:31:9-39:20
+	android:label
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:32:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml:37:27-74
+uses-sdk
+INJECTED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:21:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.maps.android:android-maps-utils:0.3.4] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.3.4\AndroidManifest.xml:5:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\jannis\Studium\Master\MIS\ue2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:20:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] E:\jannis\Studium\Master\MIS\ue2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:20:20-65

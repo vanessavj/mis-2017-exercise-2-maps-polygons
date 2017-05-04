@@ -80,9 +80,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                         //Area Berechnung: http://stackoverflow.com/questions/28838287/calculate-the-area-of-a-polygon-drawn-on-google-maps-in-an-android-application
                         double area = SphericalUtil.computeArea(polylineOptions.getPoints());
-
+                        String scale;
+                        if(area < 100000000){
+                            scale = "m²";
+                        } else {
+                            scale = "km²";
+                            area /= 1000000;
+                        }
                         LatLng center = calcCentroid();
-                        mMap.addMarker(new MarkerOptions().position(center).title(area + ""));
+                        mMap.addMarker(new MarkerOptions().position(center).title(area + scale));
                     }
                     buttonStartStop.setText("Start Polygon");
                     polylineOptions = null;
@@ -155,7 +161,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         if(settings.contains(polygonMarkers)){
             Set<String> markers = settings.getStringSet(polygonMarkers, new HashSet<String>());
             for (String marker : markers){
-                Log.i("Marker", marker);
+                //Log.i("Marker", marker);
                 String[] tmp = marker.split(",");
                 mMap.addMarker(new MarkerOptions().position(new LatLng(Double.parseDouble(tmp[1]), Double.parseDouble(tmp[2]))).title(tmp[0]));
             }
@@ -170,7 +176,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 MarkerOptions markerOptions = new MarkerOptions().position(latLng).title(title);
                 mMap.addMarker(markerOptions);
                 Set<String> set = settings.getStringSet(polygonMarkers, new HashSet<String>());
-                Log.i("Set", set.toString());
+//                Log.i("Set", set.toString());
                 set.add(markerOptions.getTitle() + "," + markerOptions.getPosition().latitude + "," + markerOptions.getPosition().longitude);
                 editor.clear();
                 editor.putStringSet(polygonMarkers, set);

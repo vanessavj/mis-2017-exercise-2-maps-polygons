@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mis-2017-exercise-2-maps-polygons.iml" filepath="$PROJECT_DIR$/mis-2017-exercise-2-maps-polygons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ue2.iml" filepath="$PROJECT_DIR$/ue2.iml" />
     </modules>
   </component>
 </project>
